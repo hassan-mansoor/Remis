@@ -9,4 +9,6 @@ The project used webserveices to send emails.
 2. Visual studio 2013 with Entity framework 4.5 
 
 ### How to run 
-Simple import the database to and run the solution.
+import the database files from Database directory
+change the connection string in class OwinContext.cs  Database.Connection.ConnectionString = @"Data Source=HASSAN;Initial Catalog=Remis;Integrated Security=True";
+to and run the solution.
